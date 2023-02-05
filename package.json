@@ -1,0 +1,36 @@
+{
+  "name": "@ongojs/socket",
+  "version": "0.0.0",
+  "description": "socket",
+  "main": "index.js",
+  "bin": {
+    "socket": "bin/index.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/socket.git"
+  },
+  "keywords": [
+    "socket"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/socket/issues"
+  },
+  "homepage": "https://github.com/ongojs/socket#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "socket.io": "^4.5.4",
+    "vitest": "^0.28.4"
+  }
+}
