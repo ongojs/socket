@@ -5,21 +5,21 @@
 ### Installation
 
 ```bash
-$ yarn add @mongodb-model/socket 
+$ yarn add @ongojs/socket 
 
 ```
  or 
 
 ```bash
 
-$ npm i @mongodb-model/socket
+$ npm i @ongojs/socket
 
 ```
 
 ### Simple Usage Example
 
 ```bash
- const Base = require('@mongodb-model/socket');
+ const Base = require('@ongojs/socket');
  const base = new Base();
  base.apiGet();
  base.on('apiGet', data => console.log(data));
@@ -28,7 +28,7 @@ $ npm i @mongodb-model/socket
 ```
 or 
 ```bash
- class MyWonderfulClass extends require('@mongodb-model/socket') {
+ class MyWonderfulClass extends require('@ongojs/socket') {
 
     constructor(...arrayOfObjects) {
 
